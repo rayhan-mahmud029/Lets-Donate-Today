@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner {
+    background-image: url('../images/donation0.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(183, 181, 181);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.banner-title {
+    color: #ffff;
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.banner-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    background-color: #ff5959;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+main {
+    margin: 100px 150px;
+}
+
+.sec-1 {
+    text-align: center;
+}
+
+.sec-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #121212;
+    margin: 40px;
+}
+
+.sec-description {
+    font-size: 20px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.amounts {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-text {
+    font-size: 20px;
+    padding: 40px 20px;
+    font-weight: 900;
+    color: #FF5959;
+    background-color: unset;
+    border: 0;
+    border-radius: 5px;
+}
+
+.amount-text:hover {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.sec-1 input {
+    font-size: 18px;
+    font-weight: 500;
+    color: #B3B3B3;
+    ;
+    border: 0;
+    border-bottom: 1px solid #DADADA;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sec-1 .btn-primary {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+/* Donate Plan Section */
+.sec-2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    height: 250px;
+    width: 352px;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+.card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+.card-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;    
+}
